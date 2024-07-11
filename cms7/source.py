@@ -4,7 +4,7 @@ from markdown.extensions.tables import TableExtension
 from markdown.extensions.toc import TocExtension
 from markdown.extensions.wikilinks import WikiLinkExtension
 
-from jinja2 import Markup
+from markupsafe import Markup, escape
 
 from .mdext import CMS7Extension
 
